@@ -1,0 +1,52 @@
+{
+  "vpc-provider:account=207026233209:filter.isDefault=true:region=us-east-1:returnAsymmetricSubnets=true": {
+    "vpcId": "vpc-d9d70ca4",
+    "vpcCidrBlock": "172.31.0.0/16",
+    "availabilityZones": [],
+    "subnetGroups": [
+      {
+        "name": "Public",
+        "type": "Public",
+        "subnets": [
+          {
+            "subnetId": "subnet-a1055bec",
+            "cidr": "172.31.16.0/20",
+            "availabilityZone": "us-east-1a",
+            "routeTableId": "rtb-3b113745"
+          },
+          {
+            "subnetId": "subnet-222ba37d",
+            "cidr": "172.31.32.0/20",
+            "availabilityZone": "us-east-1b",
+            "routeTableId": "rtb-3b113745"
+          },
+          {
+            "subnetId": "subnet-7940cf1f",
+            "cidr": "172.31.0.0/20",
+            "availabilityZone": "us-east-1c",
+            "routeTableId": "rtb-3b113745"
+          },
+          {
+            "subnetId": "subnet-85d247a4",
+            "cidr": "172.31.80.0/20",
+            "availabilityZone": "us-east-1d",
+            "routeTableId": "rtb-3b113745"
+          },
+          {
+            "subnetId": "subnet-cbb163fa",
+            "cidr": "172.31.48.0/20",
+            "availabilityZone": "us-east-1e",
+            "routeTableId": "rtb-3b113745"
+          },
+          {
+            "subnetId": "subnet-6cd69762",
+            "cidr": "172.31.64.0/20",
+            "availabilityZone": "us-east-1f",
+            "routeTableId": "rtb-3b113745"
+          }
+        ]
+      }
+    ]
+  },
+  "ami:account=207026233209:filters.image-type.0=machine:filters.name.0=amzn2-ami-hvm-2.0.20210126.0-x86_64-gp2:filters.state.0=available:region=us-east-1": "ami-047a51fa27710816e"
+}
